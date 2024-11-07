@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER IMRAN
+LABEL THIS IS BASIC HTML CODE DEPLOYMENT
+COPY index.html /usr/share/nginx/html/
+EXPOSE 80
